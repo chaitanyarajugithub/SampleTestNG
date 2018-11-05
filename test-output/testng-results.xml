@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Executing setup]]>
+    </line>
+    <line>
+      <![CDATA[Executing method1]]>
+    </line>
+    <line>
+      <![CDATA[Executing method2]]>
+    </line>
+    <line>
+      <![CDATA[Executing method3]]>
+    </line>
+    <line>
+      <![CDATA[Executing teardown]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59" started-at="2018-11-04T11:21:22Z" finished-at="2018-11-04T11:21:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59" started-at="2018-11-04T11:21:22Z" finished-at="2018-11-04T11:21:22Z">
+      <class name="com.Annotation2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Annotation2@1517365b]" name="setup" is-config="true" duration-ms="27" started-at="2018-11-04T16:51:22Z" finished-at="2018-11-04T16:51:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.Annotation2@1517365b]" name="method2" duration-ms="0" started-at="2018-11-04T16:51:22Z" finished-at="2018-11-04T16:51:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing method2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:com.Annotation2@1517365b]" name="method3" duration-ms="0" started-at="2018-11-04T16:51:22Z" finished-at="2018-11-04T16:51:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing method3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.Annotation2@1517365b]" name="method1" duration-ms="0" started-at="2018-11-04T16:51:22Z" finished-at="2018-11-04T16:51:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing method1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Annotation2@1517365b]" name="teardown" is-config="true" duration-ms="0" started-at="2018-11-04T16:51:22Z" finished-at="2018-11-04T16:51:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing teardown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Annotation2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
